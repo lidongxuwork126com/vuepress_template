@@ -1,0 +1,20 @@
+{
+  "name": "lidongxu_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leancloud-storage": "^4.6.1",
+    "valine": "^1.4.14",
+    "vuepress": "^1.5.2"
+  }
+}
